@@ -9,17 +9,12 @@ import {
   TooltipContent,
   TooltipTrigger,
 } from "@/components/ui/tooltip";
-import {
-  IconSun,
-  IconMoon,
-  IconDesktop,
-  IconCircleHalf,
-} from "@/lib/icons";
+import { PiSun, PiMoon, PiDesktop, PiCircleHalf } from "react-icons/pi";
 
 const themes = [
-  { value: "light", label: "Light", Icon: IconSun },
-  { value: "dark",  label: "Dark",  Icon: IconMoon },
-  { value: "system", label: "System", Icon: IconDesktop },
+  { value: "light", label: "Light", Icon: PiSun },
+  { value: "dark",  label: "Dark",  Icon: PiMoon },
+  { value: "system", label: "System", Icon: PiDesktop },
 ] as const;
 
 export function ThemeToggle() {
@@ -33,7 +28,7 @@ export function ThemeToggle() {
     return (
       <div className="fixed bottom-4 right-4 z-50">
         <Button variant="ghost" size="icon" className="h-9 w-9 opacity-0" aria-hidden>
-          <IconCircleHalf className="h-4 w-4" />
+          <PiCircleHalf className="h-4 w-4" />
         </Button>
       </div>
     );
@@ -41,10 +36,10 @@ export function ThemeToggle() {
 
   const CurrentIcon =
     theme === "system"
-      ? IconDesktop
+      ? PiDesktop
       : resolvedTheme === "dark"
-      ? IconMoon
-      : IconSun;
+      ? PiMoon
+      : PiSun;
 
   return (
     <div className="fixed bottom-4 right-4 z-50">
@@ -77,7 +72,7 @@ export function ThemeToggle() {
                 <Icon className="h-4 w-4" />
                 <span>{label}</span>
                 {theme === value && (
-                  <span className="ml-auto h-1.5 w-1.5 rounded-full bg-canvas-text-contrast" />
+                  <span className="ml-auto h-1.5 w-1.5 rounded-full bg-ca" />
                 )}
               </DropdownMenuItem>
             ))}

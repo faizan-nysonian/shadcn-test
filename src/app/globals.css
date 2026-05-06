@@ -323,6 +323,12 @@
   --color-info-text-contrast: var(--info-text-contrast);
   --color-info-on-info: var(--info-on-info);
 
+  /* Semantic aliases for charts */
+  --color-brand: var(--primary-solid);
+  --color-danger: var(--alert-solid);
+  --color-success: var(--success-solid);
+  --color-warning: var(--warning-solid);
+
 }
 
 @theme inline {

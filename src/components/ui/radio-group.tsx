@@ -26,7 +26,7 @@ function RadioGroupItem({
     <RadioGroupPrimitive.Item
       data-slot="radio-group-item"
       className={cn(
-        "group/radio-group-item peer relative flex aspect-square size-4 shrink-0 rounded-full border border-canvas-border outline-none after:absolute after:-inset-x-3 after:-inset-y-2 focus-visible:border-primary-border focus-visible:ring-3 focus-visible:ring-primary-border/50 disabled:cursor-not-allowed disabled:opacity-50 aria-invalid:border-alert-border aria-invalid:ring-3 aria-invalid:ring-alert-border/20 aria-invalid:aria-checked:border-primary-solid dark:bg-canvas-bg/30 dark:aria-invalid:border-alert-border/50 dark:aria-invalid:ring-alert-border/40 data-checked:border-primary-solid data-checked:bg-primary-solid data-checked:text-primary-on-primary dark:data-checked:bg-primary-solid",
+        "group/radio-group-item peer relative flex aspect-square size-4 shrink-0 rounded-full border border-canvas-border outline-none after:absolute after:-inset-x-3 after:-inset-y-2 focus-visible:border-primary-border focus-visible:ring-0 focus-visible:ring-primary-border/50 disabled:cursor-not-allowed disabled:opacity-50 aria-invalid:border-alert-border aria-invalid:ring-0 aria-invalid:ring-alert-border/20 aria-invalid:aria-checked:border-primary-solid dark:bg-canvas-bg/30 dark:aria-invalid:border-alert-border/50 dark:aria-invalid:ring-alert-border/40 data-checked:border-primary-solid data-checked:bg-primary-solid data-checked:text-primary-on-primary dark:data-checked:bg-primary-solid",
         className
       )}
       {...props}

@@ -17,7 +17,7 @@ function Switch({
       data-slot="switch"
       data-size={size}
       className={cn(
-        "peer group/switch relative inline-flex shrink-0 items-center rounded-full border border-transparent transition-all outline-none after:absolute after:-inset-x-3 after:-inset-y-2 focus-visible:border-primary-border focus-visible:ring-3 focus-visible:ring-primary-border/50 aria-invalid:border-alert-border aria-invalid:ring-3 aria-invalid:ring-alert-border/20 data-[size=default]:h-[18.4px] data-[size=default]:w-8 data-[size=sm]:h-3.5 data-[size=sm]:w-6 dark:aria-invalid:border-alert-border/50 dark:aria-invalid:ring-alert-border/40 data-checked:bg-primary-solid data-unchecked:bg-canvas-bg dark:data-unchecked:bg-canvas-bg/80 data-disabled:cursor-not-allowed data-disabled:opacity-50",
+        "peer group/switch relative inline-flex shrink-0 items-center rounded-full border border-transparent transition-all outline-none after:absolute after:-inset-x-3 after:-inset-y-2 focus-visible:border-primary-border focus-visible:ring-0 focus-visible:ring-primary-border/50 aria-invalid:border-alert-border aria-invalid:ring-0 aria-invalid:ring-alert-border/20 data-[size=default]:h-[18.4px] data-[size=default]:w-8 data-[size=sm]:h-3.5 data-[size=sm]:w-6 dark:aria-invalid:border-alert-border/50 dark:aria-invalid:ring-alert-border/40 data-checked:bg-primary-solid data-unchecked:bg-canvas-bg dark:data-unchecked:bg-canvas-bg/80 data-disabled:cursor-not-allowed data-disabled:opacity-50",
         className
       )}
       {...props}
